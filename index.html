@@ -4,30 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Challenge Integrador Home</title>
-
+    <link rel="stylesheet" href="./styles/index.css">
   </head>
 
   <body>
     <!-- INICIO HEADER -->
     <header>
-      <nav>
+      <nav class="navbar">
 
         <picture>
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar__logo" href="index.html">
             <img
               src="img/branding/logo_light_horizontal.svg"
               alt="Isologotipo de la Marca FunkoShop" />
-            <h1>
-              FUNKOSHOP
-            </h1>
+
           </a>
         </picture>
-        <ul>
-          <li><a href="pages/shop.html">SHOP</a></li>
-          <li><a href="pages/cantacto.html">CONTACTO</a></li>
-          <li><a href="pages/login.hmtl">LOGIN</a></li>
-          <li>
-            <a href="pages/carrito.html"><img src="img/icons/cart-icon.svg"
+        <ul class="navbar__menu">
+          <li class="navbar__item"><a class="navbar__link"
+              href="pages/shop.html">SHOP</a></li>
+          <li class="navbar__item"><a class="navbar__link"
+              href="pages/cantacto.html">CONTACTO</a></li>
+          <li class="navbar__item"><a class="navbar__link"
+              href="pages/login.hmtl">LOGIN</a></li>
+          <li class="navbar__item">
+            <a class="navbar__cart" href="pages/carrito.html"><img
+                src="img/icons/cart-icon.svg"
                 alt /></a>
           </li>
         </ul>
@@ -35,13 +37,16 @@
     </header>
     <!-- FIN HEADER -->
     <!-- INICIO  SECCIO PRINCIPAL -->
-    <main>
-      <section>
-        <article>
-          <h3>Nuevos Ingresos</h3>
-          <p>Descubrí el próximo Funko Pop de tu colección</p>
-          <a href="pages/shop.html">SHOP</a>
-        </article>
+    <main class="container">
+      <section class="banner">
+        <div class="banner__bgImage">
+
+          <article class="banner__article">
+            <h3>Nuevos Ingresos</h3>
+            <p>Descubrí el próximo Funko Pop de tu colección</p>
+            <a href="pages/shop.html">SHOP</a>
+          </article>
+        </div>
       </section>
       <section>
         <div>
